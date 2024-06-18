@@ -1,0 +1,28 @@
+!help
+
+aRroW
+bOOk
+bOOk noun
+booK nOuN distinct
+book nOun DIStinct reverse
+distinct
+distiNCT DISTinct
+distinct noun distinct
+distinct noun distinct REVERSE
+placeHOLDER
+placeholder adjective reverse
+reverse
+reverse reverse
+reverse distinct
+reverse distinct reVERSE
+reverse ok
+reverse noun ok
+reverse noun ok distinct
+reverse noun distinct ok
+reverse ok ok ok
+reverse reverse ok ok 
+reverse distinct reverse ok
+reverse distinct reverse ok ok
+reverse adverb
+facebook
+!q
