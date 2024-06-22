@@ -1,4 +1,6 @@
 #!/bin/zsh
+setopt nullglob
+
 # set -x
 # Check if we need to compile with the JAR file
 jar_files=(*[bB]/*.jar)
