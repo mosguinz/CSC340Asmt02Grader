@@ -33,3 +33,16 @@ for file in *[bB]/*.class; do
     rm a.txt
   fi
 done
+
+# Manual check in case it's completely fucked
+echo -n "Rerun $classname? (y/n) "
+read choice
+if [ "$choice" = "y" ]; then
+  if [ "${#jar_files[@]}" -ge 1 ]; then
+    echo "Rerunning with provided JAR file..."
+    java -cp "$dir:${jar_files[*]}" "$classname"
+  else
+    echo "Rerunning..."
+    java -cp "$dir" "$classname"
+  fi
+fi
