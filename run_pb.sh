@@ -29,8 +29,10 @@ for file in *[bB]/*.class; do
     fi
 
     # Open in vimdiff and delete stdout file
-    vimdiff -c "set diffopt+=iwhiteall" a.txt pb_stdout.txt
+    vimdiff -c "set diffopt+=iwhiteall" -c TOhtml -c 'wq! diff.html' a.txt pb_stdout.txt
+    open diff.html
     rm a.txt
+    break
   fi
 done
 
